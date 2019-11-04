@@ -7,7 +7,6 @@ def min_swap(arr):
     for index, ele in enumerate(arr):
         arr_dict[ele] = index
     visited = [False]*n
-    print(arr_dict)
 
     for ele, index in sorted(arr_dict.items(), key=lambda x: x[0]):
         print(ele, index)
